@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Prevent local secrets/config from being tracked
+.env
+*.secret.properties
+external-application.properties
